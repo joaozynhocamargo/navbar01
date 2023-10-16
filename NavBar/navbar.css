@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    color: #202020;
+  
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color: #2c3962;
+    text-decoration: none;
+ 
+}
+
+.login {
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: #202020;
+    border: none;
+    border-radius: 5px;
+    color: #110101;
+    background-color: rgb(164, 192, 209);
+    font-family: 'font-family: 'Rubik', sans-serif';
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: rgb(171, 220, 253);
+
+}
+
+.cadastro {
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: #202020;
+    border: none;
+    border-radius: 5px;
+    color: #110101;
+    background-color: rgb(110, 136, 252);
+    font-family: 'font-family: 'Rubik', sans-serif';
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.cadastro:hover {
+    background-color: rgb(171, 220, 253);
+
+}
